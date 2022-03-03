@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>404 Not Found</title>
+      <link rel="stylesheet" href="https://cdn.crypon.xyz/404style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <div id="error-page">
+         <div class="content">
+            <h2 class="header" data-text="404">
+               404
+            </h2>
+            <h4 data-text="Opps! Page not found">
+               Opps! Sayfa Bulunamadı
+            </h4>
+            <p>
+              Üzgünüz aradığınız sayfayı aradık fakat bulamadık. :(
+            </p>
+            <div class="btns">
+               <a href="https://crypon.xyz">return home</a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
