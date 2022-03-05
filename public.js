@@ -19,7 +19,7 @@ if(theme === "theme=dark") {
     document.getElementsByTagName('body')[0].classList.toggle("#toggle");
     document.cookie = "theme=light; expires=Thu, 18 Dec 2023 12:00:00 UTC"
 });
-} else {
+} else if (!sistemtema) {
     document.getElementById("toggle").addEventListener("click", function(){
     document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
     document.cookie = "theme=dark; expires=Thu, 18 Dec 2023 12:00:00 UTC"
